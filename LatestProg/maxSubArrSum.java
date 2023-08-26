@@ -90,8 +90,8 @@ public class maxSubArrSum {
 
     }
 
-    // To print the sub arrays (using prefix sum array method). Time Complexity
-    // O(n^2);
+    // To print the sub arrays (Kadane's algorithm). Time Complexity
+    // O(n);
     public static void calculateMaxSubArrSum3(int arr[]) {
         int maxSum = Integer.MIN_VALUE;
         int currSum = 0;
